@@ -14,22 +14,22 @@
 	
 	h1{
 		margin:0px;
-		height:60px;
+		height:50px;
 		width:100%;
 		background:#fce205;
 		color:#990f02;
-		padding-top:33px;
-		
+		padding-top:10px;
 		text-align:center;
 		text-transform:uppercase;
 	
 	}
 
 	h2{
+		padding-top:15px;
 		margin:0;
 		text-align:center;
 		color:#990f02;
-		font-size:20px;
+		font-size:15px;
 	}
 	
 	section{
@@ -46,7 +46,7 @@
 		width:29.3%;
 		padding:1%;
 		margin:1%;
-		overflow:auto;
+		
 		height:400px;
 	}
 
@@ -71,11 +71,12 @@
 	}
 
 	.footer{
+		width:100%;
 		left:0;
 		bottom:0;
 		color:#990f02;
 		background:#fce205;
-		float:clear;
+		
 	}
 
 	slider{
@@ -124,7 +125,7 @@
 		background-position : center;
 	}
 	@keyframes slide{
-		0%{left:100%; width: 100%;}
+		0%{left:100%; width:100%;}
 		5%{left:0%;}
 		25%{left:0%;}
 		30%{left:-100%;width:100%;}
@@ -133,13 +134,58 @@
 
 		
 	}
+	.slidepics{
+		width:100%;
+
+	}
 	.slidepics img{
 		width:400px;
-		height:auto;
+		height:500px;
 	}
 	img{
 		width:100%;
-	}	
+	}
+@media screen and (max-width:959px){
+	.container{
+		width:100%;
+}
+.section{width:100%;}
+.slidepics{width:100%;}	
+.slidepics img{width:100%;}
+article{width:100%;}
+.footer{width:100%;}
+
+img{
+	width:100%;
+}
+}
+@media screen and (max-width:640px){
+	.container{
+		width:100%;
+}
+.section{width:100%;}
+.slidepics{width:100%;}	
+.slidepics img{width:100%;}
+article{width:100%;}
+.footer{width:100%;}
+img{
+	width:100%;
+}
+}
+@media screen and (max-width:320px){
+	.container{
+
+		width:100%;
+}
+.section{width:100%;}
+.slidepics{width:100%;}	
+.slidepics img{width:100%;}
+article{width:100%;}
+.footer{width:100%;}
+img{
+	width:100%;
+}
+}	
 
 </style>
 </head>
@@ -147,11 +193,12 @@
 
 	
 	<header>
+	<div class="container">
 		<img src="5.png">
 		<h1>Kumbakonam Bhramin Matrimony</h1>
 		<h2>under Sri Mushnam Sri Karunagaraswamigal Trust (Regd) </h2>
 		
-
+	</div>
 	</header>
 	<section>
 	<div class="slidepics">
@@ -180,9 +227,9 @@
 		<ul><li>Address: No:41, New Dhabir Street, Kumbakonam - 612001.</li> <li>Phone: 9344699787(Google Pay), 9789592365(Whatsapp). </li><li>Email:srimushnamtrust@gmail.com.</li><li>also do contact us for all homangal and poojaigal.</li></ul>
 			
 	</article>
-	
+	<div class="footer">
 		<img src="5.png">
 		<marquee width="100%" direction="right" height"150px>Thank You for visiting our page!!!</marque>
-	
+	</div>
 </body>
 </html
